@@ -15,7 +15,10 @@
 }
 
 /* Make sure our content doesn't get cut its right margin cut off */
-.ccontent {width:75%;}
+/* LP #1203077, I am commenting this out and presuming that it is
+lost to the sands of time. I will ask Nat to kick this quite
+heavily before merging. */
+/*.ccontent {width:75%;}*/
 
 /* Supress background and border styling  */
 #main {
@@ -114,4 +117,8 @@ width:50%;
 .cal .all_day a {
     /* When printing, give multiday a border */
     border: solid 1px #808080 !important;
+}
+
+.cal_title {
+    font-size: 250%;
 }
